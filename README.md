@@ -42,25 +42,27 @@ streamlit run app.py
 Visit: http://localhost:8501
 
 Project Structure:-
-ai_data_analyzer/
-│
-├── app.py
-├── requirements.txt
-├── modules/
-│   ├── ai_analyzer.py
-│   ├── file_handler.py
-│   ├── visualizer.py
-│   └── web_scraper.py
-└── README.md
+**ai_data_analyzer/**
+├── **app.py**                        # Main Streamlit app
+├── **requirements.txt**             # Dependencies
+├── **README.md**                    # Documentation
+├── **modules/**                     # Core logic
+│   ├── **ai_analyzer.py**           # AI summarizer & sentiment analyzer
+│   ├── **file_handler.py**          # Extracts data from different file types
+│   ├── **visualizer.py**            # Graphs & wordcloud
+│   └── **web_scraper.py**           # Scrapes text from websites
+└── **assets/**                      # Screenshots (optional)
 
 
-Technologies Used
-Streamlit
-TextBlob
-Transformers
-PyMuPDF (PDF reading)
-Pytesseract
-BeautifulSoup
-Matplotlib
-WordCloud
+
+🛠️ Technologies Used
+Python 3.10
+Streamlit – for UI
+Transformers (BART) – for summarization
+TextBlob – for sentiment analysis & keyword extraction
+PyMuPDF – PDF parsing
+pytesseract – OCR for images
+Pillow (PIL) – Image processing
+BeautifulSoup4 – Web scraping
+Matplotlib & WordCloud – Visualization
 
