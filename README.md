@@ -71,6 +71,8 @@ streamlit run app.py
 
 ---
 
+**📁 Project Structure**
+
 **Web scraping and Data Analysis/**
 
 ├── **app.py**                       # Main Streamlit app
