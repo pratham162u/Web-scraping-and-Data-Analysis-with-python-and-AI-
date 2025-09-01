@@ -33,7 +33,7 @@ An AI-powered tool that extracts, analyzes, and summarizes text from uploaded fi
 
 **🔹 Step 1 : Clone this Repository :-**
 
-git clone https://github.com/YOUR_USERNAME/ai-data-analyzer.git
+git clone https://github.com/pratham162u/ai-data-analyzer.git
 
 cd ai-data-analyzer
 
